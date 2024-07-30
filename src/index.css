@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.nes-list{
+  text-align: start;
+}
+
+.nes-list li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.line-through{
+  color: lightgray;
+  text-decoration: line-through;
+}
